@@ -23,4 +23,8 @@ class Quiz {
         let answer = options[index]
         return answer == correctedAnswer
     }
+    
+    deinit {
+        print("Liberou quiz da memoria")
+    }
 }
